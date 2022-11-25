@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Тестовое Задание</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:url" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link type="text/css" href="css/main.css" rel="stylesheet">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="img/logo.svg">
+</head>
+
+<body>
+
+    <!-- header  -->
+    <header class="header">
+        <div class="container wrapper">
+            <a href="index.html" class="header-logo">
+                <img class="header-logo__pic" src="img/logo.svg" alt="header logo">
+            </a>
+            <ul class="header-nav">
+                <li class="header-nav__item"><a href="#!" class="header-nav__item-link">Магазины</a></li>
+                <li class="header-nav__item"><a href="#!" class="header-nav__item-link">Контакты</a></li>
+                <li class="header-nav__item"><a href="#!" class="header-nav__item-link">О нас</a></li>
+                <li class="header-nav__item--login"><a href="#!" class="btn btn--bright">Войти</a></li>
+            </ul>
+            <a href="tel:+36787547894" class="header-contacts">+3 67 8754 7894</a>
+            <div class="header-auth">
+                <div class="header-auth__lang">
+                    <a class="header-auth__lang-btn header-auth__lang--active" href="#!">Ru</a>
+                    <a class="header-auth__lang-btn" href="#!">Eng</a>
+                </div>
+                <div class="header-auth__control">
+                    <a href="" class="header-auth__control-login">Войти</a>
+                    <a href="" class="header-auth__control-signup">Создать аккаунт</a>
+                </div>
+            </div>
+            <div class="hamburger">
+                <div class="hamburger__container">
+                    <div class="hamburger__inner"></div>
+                    <div class="hamburger__hidden"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- intro  -->
+    <section class="intro" style="background-image: url('img/intro-bg.png')">
+        <div class="container intro-content">
+            <h2 class="intro-content__title animate-top">
+                Мы будем рады сотрудничать с вами на платформе 'Международной цветочной онлайн-площадки'!
+            </h2>
+            <p class="intro-content__subtitle animate-top">
+                Присоединяйтесь к нам и начните получать доход с бизнеса в первый месяц регистрации!
+            </p>
+            <div class="content__btns animate-bottom">
+                <a class="btn btn--light" href="#!">Начать продавать</a>
+                <a class="btn btn--bright" href="#!">Начать покупать</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- order  -->
+    <section class="order" style="background-image: url('img/bg.png')">
+        <div class="container">
+            <div class="order-content">
+                <div class="order-content__info">
+                    <h3 class="order-content__info-title">
+                        Заполните форму и начните развивать свой бизнес прямо сейчас!
+                    </h3>
+                    <p class="order-content__info-text">
+                        Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы полностью и
+                        корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов
+                        автоматизированы, что сэкономит ваше время и деньги!
+                    </p>
+                    <img class="order-content__info-img" src="img/form-bg.png" alt="Form's background">
+                </div>
+                <form class="form">
+                    <!-- input data  -->
+                    <div class="form-item form-item--data">
+                        <label class="form-item__label" for="full-name">
+                            Ваше имя
+                            <input class="form-item__input" id="full-name" type="text"
+                                placeholder="Фролова Александра Васильевна">
+                        </label>
+
+                        <label class="form-item__label" for="company">
+                            Название Компании
+                            <input class="form-item__input" id="company" type="text" placeholder="ООО Атлантика">
+                        </label>
+
+                        <label class="form-item__label" for="email">
+                            E-mail
+                            <input class="form-item__input" id="email" type="email" placeholder="flolovaalexa@com.rur">
+                        </label>
+
+                        <label class="form-item__label" for="phone-number">
+                            Номер телефона
+                            <input class="form-item__input" id="phone-number" type="tel"
+                                placeholder="+7 (XXX) - XXX XX XX">
+                        </label>
+
+                        <label class="form-item__label" for="promo-code">
+                            Промокод
+                            <input class="form-item__input" id="promo-code" type="text" placeholder="HGF864">
+                        </label>
+
+                        <button class="btn btn--bright" id="next-form-page" type="button">Далее</button>
+                    </div>
+                    <div class="form-item form-item--confirm">
+                        <label class="form-item__label" for="password">
+                            Пароль
+                            <input class="form-item__input" id="password" type="password" placeholder="Создайте пароль">
+                        </label>
+
+                        <label class="form-item__label" for="confirm-password">
+                            Подтвердите пароль
+                            <input class="form-item__input" id="confirm-password" type="password"
+                                placeholder="Подтвердите пароль">
+                        </label>
+                        <span class="form-item__code">F 4 U K 6</span>
+                        <label class="form-item__label" for="code">
+                            Введите символы из картинки
+                            <input class="form-item__input" id="code" type="text" placeholder="Код из картинки">
+                        </label>
+                        <div class="form-item__confirm">
+                            <button class="btn btn--light" id="prev-form-page" type="button">Назад</button>
+
+                            <button class="btn btn--bright" type="submit">Подтвердить</button>
+                        </div>
+                        <label for="cbx" class="form-item__checkbox">
+                            <input id="cbx" type="checkbox" class="form-item__checkbox-invisible">
+                            <div class="form-item__checkbox-btn">
+                                <svg width="20px" height="20px" viewBox="0 0 20 20">
+                                    <path
+                                        d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z">
+                                    </path>
+                                    <polyline points="4 11 8 15 16 6"></polyline>
+                                </svg>
+                            </div>
+                            <span class="form-item__checkbox-text">
+                                Я даю согласие на обработку моих <br> персональных данных и правовых <br> документов
+                            </span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="container inner">
+            <div class="footer-content">
+                <h3 class="footer-content__title">Наши офисы</h3>
+                <div class="footer-content__info">
+                    <p class="footer-content__info-text">
+                        Московский офис
+                        +7 455 267-89-07
+                        Берсеневский пер., д. 56, стр. 4,
+                        6-й эт., Москва, 567754
+                    </p>
+                    <p class="footer-content__info-text">
+                        Ростовский офис
+                        +7 878 888-01-67
+                        Буденовский пр-т, д. 84, 6-й эт.,
+                        Ростов-на-Дону, 679965
+                    </p>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-content__title">Мы в соц сетях</h3>
+                <a class="footer-content__social footer-content__social--instagram" href="#!">Instagram</a>
+                <a class="footer-content__social footer-content__social--facebook" href="#!">Facebook</a>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-content__title">Свяжитесь с нами</h3>
+                <a class="footer-content__link footer-content__link--gradient" href="tel:+36787547894">+3 67 8754
+                    7894</a>
+                <a class="footer-content__link footer-content__link--gradient"
+                    href="mailto:mflowers@flo.com">mflowers@flo.com</a>
+                <a class="btn btn--bright btn--mail" href="mailto:mflowers@flo.com">Написать</a>
+            </div>
+        </div>
+        <p class="footer-right container">Авторские права 2008-
+            <script>document.write(new Date().getFullYear())</script> <a href="https://M-flowers.com">M-flowers.com</a>
+        </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
