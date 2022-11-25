@@ -1,0 +1,86 @@
+<!-- order  -->
+<section class="order" style="background-image: url('img/bg.png')">
+    <div class="container">
+        <div class="order-content">
+            <div class="order-content__info">
+                <h3 class="order-content__info-title">
+                    Заполните форму и начните развивать свой бизнес прямо сейчас!
+                </h3>
+                <p class="order-content__info-text">
+                    Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы полностью и
+                    корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов
+                    автоматизированы, что сэкономит ваше время и деньги!
+                </p>
+                <img class="order-content__info-img" src="img/form-bg.png" alt="Form's background">
+            </div>
+            <form class="form">
+                <!-- input data  -->
+                <div class="form-item form-item--data">
+                    <label class="form-item__label" for="full-name">
+                        Ваше имя
+                        <input class="form-item__input" id="full-name" type="text"
+                            placeholder="Фролова Александра Васильевна">
+                    </label>
+
+                    <label class="form-item__label" for="company">
+                        Название Компании
+                        <input class="form-item__input" id="company" type="text" placeholder="ООО Атлантика">
+                    </label>
+
+                    <label class="form-item__label" for="email">
+                        E-mail
+                        <input class="form-item__input" id="email" type="email" placeholder="flolovaalexa@com.rur">
+                    </label>
+
+                    <label class="form-item__label" for="phone-number">
+                        Номер телефона
+                        <input class="form-item__input" id="phone-number" type="tel" placeholder="+7 (XXX) - XXX XX XX">
+                    </label>
+
+                    <label class="form-item__label" for="promo-code">
+                        Промокод
+                        <input class="form-item__input" id="promo-code" type="text" placeholder="HGF864">
+                    </label>
+
+                    <button class="btn btn--bright" id="next-form-page" type="button">Далее</button>
+                </div>
+                <div class="form-item form-item--confirm">
+                    <label class="form-item__label" for="password">
+                        Пароль
+                        <input class="form-item__input" id="password" type="password" placeholder="Создайте пароль">
+                    </label>
+
+                    <label class="form-item__label" for="confirm-password">
+                        Подтвердите пароль
+                        <input class="form-item__input" id="confirm-password" type="password"
+                            placeholder="Подтвердите пароль">
+                    </label>
+                    <span class="form-item__code">F 4 U K 6</span>
+                    <label class="form-item__label" for="code">
+                        Введите символы из картинки
+                        <input class="form-item__input" id="code" type="text" placeholder="Код из картинки">
+                    </label>
+                    <div class="form-item__confirm">
+                        <button class="btn btn--light" id="prev-form-page" type="button">Назад</button>
+
+                        <button class="btn btn--bright" type="submit">Подтвердить</button>
+                    </div>
+                    <label for="cbx" class="form-item__checkbox">
+                        <input id="cbx" type="checkbox" class="form-item__checkbox-invisible">
+                        <div class="form-item__checkbox-btn">
+                            <svg width="20px" height="20px" viewBox="0 0 20 20">
+                                <path
+                                    d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z">
+                                </path>
+                                <polyline points="4 11 8 15 16 6"></polyline>
+                            </svg>
+                        </div>
+                        <span class="form-item__checkbox-text">
+                            Я даю согласие на обработку моих <br> персональных данных и правовых <br> документов
+                        </span>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
